@@ -32,9 +32,9 @@ function App() {
               return (
                 <div className='content'  key={index}>
                   <div className='content_child'>
-                    <p>
+                    <li>
                       {item}
-                    </p>
+                    </li>
                     <Button v onClick={() => handleDelete(index)} variant="contained">
                       DELETE
                     </Button>
